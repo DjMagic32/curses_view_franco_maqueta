@@ -5,7 +5,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <title>Curso de Python | Arrow-Academy</title>
 
-  
+  <!-- no es necesario -->
   <style type="text/css">
     @font-face {
       font-family: 'Udemy Sans';
@@ -75,14 +75,10 @@
               </a>
 
             </div>
-
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
             
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="button-end-secctio-container">
               <a href="">
-                <div class="end-sesion-button ml-auto no-scroll">
+                <div class="end-sesion-button ml-auto no-scroll" false>
                   Cerrar Sesion 
                 </div>
               </a>
@@ -95,9 +91,11 @@
 
       </div>
 
-
+          <!-- All Components there in the main tab -->
           <main class="app--column-container">
             <div class="app--content-column">
+
+              <!-- Video -->
               <div class="app--row app--body-container">
                 <div class="app--row-content">
                   <div class="app--curriculum-item">
@@ -167,79 +165,107 @@
 
               <!-- Side Bar -->
 
-              <div 
-                class="app--sidebar-column" 
-                style="top: 56px; height: calc(100% - 56px);"
-              >
-                <section 
-                  class="sidebar--sidebar" 
-                  aria-label="Sidebar"
-                >
+              <div id="sidebar-section-course-container" class="app--sidebar-column" style="top: 56px; height: calc(100% - 56px);">
+                <section id="sidebar-section-course" class="sidebar--sidebar" aria-label="Sidebar">
+
+                  <!-- Title sidebar -->
                   <div class="sidebar--sidebar-header">
                     <h2 class="ud-heading-md">Course content</h2>
                   </div>
-                  <div 
-                    class="sidebar--content---4z0-"
-                  >
+              
+                  <!-- Content Sidebar -->
+                  <div class="sidebar--content---4z0-">
+                    <!-- Card 1 -->
                     <div class="ct-sidebar-course-content">
                       <div>
-
-                        <div 
-                          class="accordion-panel--panel section--section"
-                          >
-                          <span
-                            id="" 
-                            data-type="checkbox" 
-                            data-checked="checked"
-                            style="display: none;"
-                            >
+              
+                        <div class="accordion-panel--panel section--section">
+                          <span id="" data-type="checkbox" data-checked="checked" style="display: none;">
                           </span>
-                          
+              
                           <div
-                            class="ud-btn-link ud-heading-md ud-accordion-panel-toggler accordion-panel--panel-toggler accordion-panel--outer-panel-toggler"
-                            >
-                            
+                            class="ud-btn-link ud-heading-md ud-accordion-panel-toggler accordion-panel--panel-toggler accordion-panel--outer-panel-toggler">
+              
                             <div class="img-content-course-container">
                               <img class="img-content-course" src="./img/wallpaper_login.png" alt="Imagen de prueba">
                             </div>
-
+              
                             <div class="section--section-heading section--flex">
                               <div class="section--flex">
-
+              
                                 <h3 class="ud-accordion-panel-heading">
-
-                                  <button type="button"
-                                    aria-disabled="false"
-                                    aria-expanded="true"
-                                    class="ud-btn-link ud-heading-md accordion-panel--panel-toggler"
-                                    id=""
-                                    >
+              
+                                  <button type="button" aria-disabled="false" aria-expanded="true"
+                                    class="ud-btn-link ud-heading-md accordion-panel--panel-toggler" id="">
                                     <span class="ud-accordion-panel-title">
-                                      <span 
-                                        class="truncate-with-tooltip--ellipsis"
-                                        style="-webkit-line-clamp: 2;"
-                                        >
+                                      <span class="truncate-with-tooltip--ellipsis" style="-webkit-line-clamp: 2;">
                                         Funciones con Franco
                                       </span>
                                     </span>
-
+              
                                   </button>
-
+              
                                 </h3>
-
+              
                               </div>
-
+              
                             </div>
-
+              
                           </div>
-
-                        
-                        
+              
+              
+              
                         </div>
-          
+              
                       </div>
                     </div>
-                  </div> 
+                    <!-- Card 2 -->
+                    <div class="ct-sidebar-course-content">
+                      <div>
+              
+                        <div class="accordion-panel--panel section--section">
+                          <span id="" data-type="checkbox" data-checked="checked" style="display: none;">
+                          </span>
+              
+                          <div
+                            class="ud-btn-link ud-heading-md ud-accordion-panel-toggler accordion-panel--panel-toggler accordion-panel--outer-panel-toggler">
+              
+                            <div class="img-content-course-container">
+                              <img class="img-content-course" src="./img/wallpaper_login.png" alt="Imagen de prueba">
+                            </div>
+              
+                            <div class="section--section-heading section--flex">
+                              <div class="section--flex">
+              
+                                <h3 class="ud-accordion-panel-heading">
+              
+                                  <button type="button" aria-disabled="false" aria-expanded="true"
+                                    class="ud-btn-link ud-heading-md accordion-panel--panel-toggler" id="">
+                                    <span class="ud-accordion-panel-title">
+                                      <span class="truncate-with-tooltip--ellipsis" style="-webkit-line-clamp: 2;">
+                                        Funciones con Franco
+                                      </span>
+                                    </span>
+              
+                                  </button>
+              
+                                </h3>
+              
+                              </div>
+              
+                            </div>
+              
+                          </div>
+              
+              
+              
+                        </div>
+              
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Content Sidebar -->
+              
                 </section>
               </div>
 
@@ -287,6 +313,7 @@
               </div> 
             </div>
           </main>
+
 
     </div>
   </div>
@@ -775,6 +802,45 @@
   >
 
 </div>
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+<!-- Popper.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+<!-- Bootstrap JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<script>
+  
+  //crea una funcion que reciba la anchura del documento
+  function checkWidth(width) {
+    //comprueba si es menor de 900px
+    if (width < 990) {
+      //encuentra el div
+      const div = document.getElementById('sidebar-section-course');
+      //encuentra el ultimo elemento hijo del body
+      const lastChild = document.body.lastChild;
+      //inserta el div despues del ultimo elemento hijo del body
+      document.body.insertBefore(div, lastChild);
+    }
+    else {
+      //encuentra el div
+      const div = document.getElementById('sidebar-section-course');
+      //encuentra el div con el id sidebar-section-course-container y lo incerta dentro de ese div
+      document.getElementById('sidebar-section-course-container').appendChild(div);
+
+
+    }
+  }
+
+  //ejecuta la funcion cuando la pagina carga
+  window.onload = () => checkWidth(window.innerWidth);
+
+  //ejecuta la funcion cuando el tamaño de la pantalla cambia
+  window.onresize = () => checkWidth(window.innerWidth);
+</script>
 
 </body>
 

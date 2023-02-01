@@ -104,17 +104,6 @@ a:-webkit-any-link {
     color: #d1d7dc
 }
 
-/* .truncate-with-tooltip--ellipsis {
-    display: block !important;
-    display: -webkit-box !important;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: normal
-} */
-
-
 .app--column-container {
     display: flex
 }
@@ -139,12 +128,6 @@ a:-webkit-any-link {
 .app--curriculum-item, .app--dashboard-content {
     width: 100%
 }
-
-/* .app--curriculum-item {
-    display: flex;
-    flex-direction: column
-}
- */
 .curriculum-item-view--scaled-height-limiter {
     position: relative;
     height: 100%;
@@ -152,23 +135,10 @@ a:-webkit-any-link {
     max-height: calc(100vh - 29rem)
 }
 
-/* .curriculum-item-view--scaled-height-limiter.curriculum-item-view--no-sidebar {
-    max-height: 80vh
-} */
-
 .curriculum-item-view--absolute-height-limiter {
     height: 100%;
     overflow: hidden
 }
-
-/* .curriculum-item-view--absolute-height-limiter.curriculum-item-view--no-sidebar {
-    max-height: 100%
-}
- */
-/* .curriculum-item-view--aspect-ratio-container {
-    padding-top: 65%;
-    overflow: hidden
-} */
 
 .curriculum-item-view--content-container, .curriculum-item-view--loader {
     position: absolute;
@@ -185,38 +155,11 @@ a:-webkit-any-link {
     background-color: #fff
 }
 
-/* .curriculum-item-view--content .ct-dashboard-separator, .curriculum-item-view--content .unsupported-asset {
-    border-bottom: 1px solid #d1d7dc
-}
-
-.curriculum-item-view--content.curriculum-item-fullscreen .ct-dashboard-separator, .curriculum-item-view--content.curriculum-item-fullscreen .unsupported-asset {
-    border-color: #fff
-}
-
-.user-activity--user-inactive .user-activity--hide-when-user-inactive {
-    opacity: 0 !important;
-    transition: opacity 1s
-} */
-
-/* .curriculum-item-view--video-background {
-    background-color: #1c1d1f
-}
-
-.curriculum-item-view--video-background .curriculum-item-view--loader {
-    color: #f7f9fa
-} */
-
-
 .lecture-view--container {
     position: relative;
     width: 100%;
     height: 100%
 }
-
-/* .lecture-view--container .unsupported-asset {
-    padding: 2.4rem 3.2rem
-}
- */
 
  
 .video-viewer--container {
@@ -232,22 +175,6 @@ a:-webkit-any-link {
     display: flex;
     flex-direction: column
 }
-
-/* .udlite-in-udheavy .header--mobile-header .ud-mobile-header-btn {
-    margin: 0
-}
- */
-/* .udlite-in-udheavy .control-bar-dropdown--menu li+li[role=separator] {
-    margin-top: .8rem
-} */
-
-/* .video-player--video-wrapper {
-    position: relative;
-    flex: 1;
-    min-width: 1px;
-    display: flex;
-    z-index: 0
-} */
 
 .video-player--center {
     cursor: pointer;
@@ -273,14 +200,6 @@ a:-webkit-any-link {
     height: 9.6rem
 }
 
-/* .autocomplete-result--wrapper.autocomplete-result--is-suggestion-item>.ud-btn-link {
-    color: #1c1d1f;
-    cursor: text
-} */
-
-/* .ud-btn-ghost:focus, .ud-btn-link:focus {
-    color: #5624d0
-} */
 
 .ud-btn-ghost:active, .ud-btn-link:active, .ud-btn-ghost:hover, .ud-btn-link:hover {
     color: #401b9c;
@@ -308,12 +227,7 @@ a:-webkit-any-link {
     font-size: 1.6rem
 }
 
-/* .video-player--video-player {
-    width: 100%;
-    height: 100%;
-    color: #f7f9fa;
-    overflow: hidden
-} */
+
 
 .video-player--video-player video {
     position: absolute;
@@ -325,40 +239,6 @@ a:-webkit-any-link {
     height: 100%;
     background-color: #1c1d1f
 }
-
-/* .control-bar--control-bar-wrapper {
-    display: flex;
-    flex-direction: column;
-    height: 100%
-}
- */
-/* body .video-control-bar-dropdown--tooltip-content {
-    transform: translateY(-3.2rem);
-    z-index: 1030
-}
- */
-/* .video-control-bar-dropdown--current-value {
-    color: #6a6f73;
-    margin-left: 4.8rem
-}
-
-.video-control-bar-dropdown--prev-icon, .video-control-bar-dropdown--next-icon {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%)
-} */
-
-/* .video-control-bar-dropdown--prev-icon {
-    left: .6rem
-}
-
-.video-control-bar-dropdown--next-icon {
-    right: .6rem
-} */
-
-/* .control-bar--popover-area {
-    flex-grow: 1
-} */
 
 .sidebar--sidebar .sidebar--sidebar-header {
     border-right: 0
@@ -402,65 +282,6 @@ a:-webkit-any-link {
     margin: 0
 }
 
-/* .accordion-panel--panel {
-    border-top: 1px solid #d1d7dc
-}
-
-.accordion-panel--panel:last-child {
-    border-bottom: 1px solid #d1d7dc
-}
-
-.accordion-panel--panel .ud-accordion-panel-heading, .accordion-panel--panel .ud-accordion-panel-title {
-    display: flex;
-    flex: 1
-}
-
-.accordion-panel--panel .accordion-panel--outer-panel-toggler .accordion-panel--expand-icon {
-    margin-left: 1.6rem;
-    transition: transform 150ms linear
-}
-
-.accordion-panel--panel span[data-checked=checked]~.accordion-panel--outer-panel-toggler .accordion-panel--expand-icon {
-    transform: rotate(-180deg)
-}
-
-.accordion-panel--static-panel .accordion-panel--content-wrapper, .accordion-panel--panel span[data-checked=checked]~.accordion-panel--content-wrapper {
-    max-height: none;
-    overflow: visible;
-    visibility: visible
-}
-
-.course-alternatives--custom-title-accordion-panel-expanded .ud-accordion-panel-toggler {
-    padding-bottom: 0
-}
-
-.course-alternatives--custom-title-accordion-panel .ud-accordion-panel-toggler {
-    flex-direction: row-reverse;
-    justify-content: start
-}
-
-.course-alternatives--custom-title-accordion-panel .ud-accordion-panel-toggler .ud-accordion-panel-title {
-    color: #5624d0;
-    font-family: udemy sans, -apple-system, BlinkMacSystemFont, Roboto, segoe ui, Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol;
-    font-weight: 700;
-    line-height: 1.2;
-    letter-spacing: -.02rem;
-    font-size: 1.4rem
-} */
-
-/* .course-alternatives--custom-title-accordion-panel .ud-accordion-panel-toggler .ud-accordion-panel-title:hover {
-    color: #401b9c
-} */
-
-/* .info-section--section .ud-accordion-panel-toggler {
-    padding: 1.6rem
-} */
-
-/* .section--section .ud-accordion-panel-toggler {
-    background: #f7f9fa;
-    padding: 1.6rem
-}
- */
 .accordion-panel--panel-toggler {
     border: none;
     color: #1c1d1f !important;
@@ -482,65 +303,10 @@ a:-webkit-any-link {
     padding: 1.6rem 0
 }
 
-/* .section--section-heading {
-    display: flex;
-    align-items: flex-start;
-    gap: .8rem
-}
- */
 .section--flex {
     flex: 1;
     min-width: 1px
 }
-
-/* .ud-text-xs {
-    font-family: udemy sans, sf pro text, -apple-system, BlinkMacSystemFont, Roboto, segoe ui, Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol;
-    font-weight: 400;
-    line-height: 1.4;
-    font-size: 1.2rem
-} */
-
-/* .section--progress {
-    margin-top: .4rem
-}
- */
-
-/* .dashboard--tabs-container {
-    margin-bottom: 9.6rem
-} */
-
-/* .dashboard--tabs-container .ud-tabs-nav-buttons {
-    padding: 0 1.6rem
-}
- */
-
-/* .tabs--tab-content {
-    max-width: 0;
-    max-height: 0;
-    overflow: hidden;
-    position: relative;
-    visibility: hidden;
-    cursor: auto;
-    padding: 0;
-    color: var(--tabs-text-color-default)
-} */
-
-/* .tabs--tab-content.tabs--active {
-    padding-top: 1.6rem;
-    max-width: none;
-    max-height: none;
-    overflow: visible;
-    visibility: visible
-} */
-
-/* .tabs--nav-button-container .tabs--nav-button.tabs--active {
-    color: var(--tabs-nav-color-active);
-    cursor: default
-} */
-
-/* .tabs--nav-button-container.tabs--active {
-    border-bottom: var(--tabs-container-border-bottom-active)
-} */
 
 
 /* Text description section */
@@ -556,9 +322,9 @@ a:-webkit-any-link {
     max-height: none !important
 }
 
-.show-more--container span[data-checked='']~.show-more--with-gradient.show-more--content {
+/* .show-more--container span[data-checked='']~.show-more--with-gradient.show-more--content {
     -webkit-mask-image: linear-gradient(#fff, #fff, rgba(255, 255, 255, 0))
-}
+} */
 
 .show-more--container span[data-checked=checked]~.show-more--focusable-label .show-more--show-more {
     display: none
@@ -612,28 +378,6 @@ a:-webkit-any-link {
 .course-overview--grid-row .course-overview--course-description-sets h4:first-child {
     margin-top: 2.4rem
 }
-
-/* .user-and-group-pill--wrapper--3caAn.user-and-group-pill--wrapper-group--1-4Tt .ud-btn-small .user-and-group-pill--ud-icon {
-    color: #5624d0
-}
-
-.user-and-group-pill--wrapper .ud-btn-small {
-    height: 3.2rem
-}
-
-.ud-btn-small {
-    min-width: 8rem;
-    height: 3.4rem
-}
-
-.course-overview--certificate-button {
-    min-width: 50%
-}
-
-.course-overview--text-gap-sm {
-    margin-top: 1.6rem
-}
- */
 .img-content-course-container {
     display: flex;
     border: none;
@@ -781,3 +525,12 @@ a:-webkit-any-link {
 
         
   }
+
+@media (max-width: 1000px) {
+    .app--content-column {
+        width: 100% !important;
+    }
+    .app--sidebar-column {
+        width: auto !important;
+    }
+}
