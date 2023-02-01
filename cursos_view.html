@@ -48,46 +48,52 @@
 <body id="udemy">
   <div class="ud-main-content-wrapper" aria-hidden="true">
     <div class="ud-main-content">
-      <div class="ud-app-loaded">
-        <div class="has-sidebar">
-          <div class="app--row app--header">
+      
+      <div class="app--row app--header">
 
-            <div class="app--row-content">
-              <header class="header--header">
+        <div class="app--row-content">
+          
+          <!-- Navbar -->
+          <nav class="header--header navbar navbar-expand-lg" style="display: flex; justify-content: space-between !important; flex-direction: row; ">
 
-                <div class="Items-principal-navbar">
-                  <a href="">
-                    <img 
-                      src="./img/arrow-left-solid.svg" 
-                      alt="Back"
-                      class="back-arrow-svg"
-                      style="width: 20px; height: 34px; margin: 0px 10px;"
-                    >
-  
-                  </a>
-  
-  
-  
-                  <a href=""><img alt="Arrow-Academy" width="91"
-                    height="34"
-                    src="./img/arrow_academy_logo.png">
-                  </a>
+            <div class="Items-principal-navbar">
+              <a href="">
+                <img 
+                  src="./img/arrow-left-solid.svg" 
+                  alt="Back"
+                  class="back-arrow-svg navbar-brand"
+                  style="width: 20px; height: 34px; margin: 0px 10px;"
+                >
 
-                </div>
+              </a>
 
-                <div>
-                  <a href="">
-                    <div class="end-sesion-button">
-                      Cerrar Sesion 
-                    </div>
-                  </a>
-                </div>
-               
 
-              </header>
+
+              <a href=""><img alt="Arrow-Academy" width="91"
+                height="34"
+                src="./img/arrow_academy_logo.png" class="navbar-brand">
+              </a>
+
             </div>
 
-          </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <a href="">
+                <div class="end-sesion-button ml-auto no-scroll">
+                  Cerrar Sesion 
+                </div>
+              </a>
+            </div>
+           
+
+          </nav>
+          <!-- Navbar -->
+        </div>
+
+      </div>
 
 
           <main class="app--column-container">
@@ -281,8 +287,7 @@
               </div> 
             </div>
           </main>
-        </div>
-      </div>
+
     </div>
   </div>
   
